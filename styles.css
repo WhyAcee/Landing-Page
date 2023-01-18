@@ -3,8 +3,11 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
 }
 
+/*HEADER*/
 .header {
     background-color: #1f2937;
     height: 30px;
@@ -39,36 +42,63 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto 0;
 }
-
+/*BODY 1*/
 .content-container1 {
-    height: 240px;
-    padding: 100px;
+    background-color: #1f2937;
+    height: 300px;
+    padding: 75px 75px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    align-self: stretch;
+
 }
 
 .cc1-left {
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .cc1-left h2 {
+    color: #f9faf8;
     margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .cc1-left p {
-    margin: 3;
+    color: #e5e7eb;
+    margin: 1px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.cc1-left button {
+    background-color: #3882f6;
+    border: 0;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 
 .cc1-right {
-    border: 5px solid green;
-    padding: inherit;
+    padding: 100px 100px;
+    background-color: #939c9e;
+    display: flex;
+    flex-shrink: 0;
 }
 
+.image-text {
+    color: #e5e7eb;
+}
+/*FOOTER*/
 .footer {
     align-self: center;
 }
