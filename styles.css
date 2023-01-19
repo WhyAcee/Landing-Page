@@ -4,10 +4,9 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 100%;
 }
 
-/*HEADER*/
+/*[HEADER]------------------------------------------------------*/
 .header {
     background-color: #1f2937;
     height: 30px;
@@ -44,7 +43,7 @@ nav a {
     align-items: center;
     margin: auto 0;
 }
-/*BODY 1--------------------------------------------------------*/
+/*[BODY 1]------------------------------------------------------*/
 .content-container1 {
     background-color: #1f2937;
     height: 300px;
@@ -100,7 +99,7 @@ nav a {
     color: #e5e7eb;
 }
 
-/*BODY 2--------------------------------------------------------*/
+/*[BODY 2]------------------------------------------------------*/
 .content-container2 {
     display: flex;
     flex-direction: column;
@@ -141,7 +140,7 @@ nav a {
     color: #1f2937;
 }
 
-/*BODY 3-------------------------------------------------------*/
+/*[BODY 3]-------------------------------------------------------*/
 .content-container3 {
     display: flex;
     flex-direction: column;
@@ -151,7 +150,7 @@ nav a {
     padding: 60px 50px;
 }
 
-.content-container3 p {
+.quote {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     font-size: 36px;
@@ -159,14 +158,64 @@ nav a {
     font-style: italic;
 }
 
-.content-container3 div {
+.thor {
     align-self: center;
     font-weight: 700;
     font-size: 18px;
     max-width: 730px;
     padding-left: 400px;
 }
-/*FOOTER--------------------------------------------------------*/
+/*[BODY 4]------------------------------------------------------*/
+.content-container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+.cc4-container {
+    width: 700px;
+    padding: 50px 100px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.cc4-text {
+    color: #f9faf8;
+}
+
+.cc4-text-header {
+    font-size: 22px;
+}
+
+.cc4-button {
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 5px 30px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cc4-button:hover, button:hover {
+    background-color: #1f2937;
+    border: 3px solid white;
+}
+
+nav a:hover {
+    background-color: #3882f6;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+/*[FOOTER]------------------------------------------------------*/
 .footer {
-    align-self: center;
+    align-self: stretch;
+    padding: 30px;
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
 }
