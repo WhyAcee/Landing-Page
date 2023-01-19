@@ -54,7 +54,6 @@ nav a {
     align-items: center;
     gap: 15px;
     align-self: stretch;
-
 }
 
 .cc1-left {
@@ -69,6 +68,7 @@ nav a {
     margin: 0;
     font-size: 48px;
     font-weight: bold;
+    max-width: 340px;
 }
 
 .cc1-left p {
@@ -76,6 +76,7 @@ nav a {
     margin: 1px;
     padding-bottom: 15px;
     font-size: 18px;
+    max-width: 300px;
 }
 
 .cc1-left button {
@@ -89,7 +90,7 @@ nav a {
 }
 
 .cc1-right {
-    padding: 100px 100px;
+    padding: 115px 100px;
     background-color: #939c9e;
     display: flex;
     flex-shrink: 0;
@@ -109,7 +110,7 @@ nav a {
 
 .cc2-header {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     font-family: Impact, sans-serif;
     padding-bottom: 30px;
 }
@@ -138,6 +139,32 @@ nav a {
     flex-wrap: wrap;
     text-align: center;
     color: #1f2937;
+}
+
+/*BODY 3-------------------------------------------------------*/
+.content-container3 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 60px 50px;
+}
+
+.content-container3 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 36px;
+    max-width: 730px;
+    font-style: italic;
+}
+
+.content-container3 div {
+    align-self: center;
+    font-weight: 700;
+    font-size: 18px;
+    max-width: 730px;
+    padding-left: 400px;
 }
 /*FOOTER--------------------------------------------------------*/
 .footer {
